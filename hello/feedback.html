@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>Monkey Blog</title>
+        <link rel="stylesheet" href="./main.css">
+    </head>
+    <body>
+        <header>
+            <img src="./images/monkey.jpg" alt="Monkey's picture"/>
+            <h1>Kill all humans</h1>
+        </header>
+        <nav>
+            <a href="./index.html">Home</a>
+            <a href="./feedback.html">Feedback</a>
+            <a href="./login.htm">Login</a>
+            <a href="./signup.html">Sign up</a>
+        </nav>
+        <section>
+            <h2>Feedback</h2>
+            <form action="">
+
+                <label for="firstName">First Name</label><br />
+                <input type="text" name="firstName"><br />
+
+                <label for="lastName">Last Name</label><br />
+                <input type="text" name="lastName"><br />
+
+                <label for="age">Age</label><br />
+                <input type="text" name="age"><br />
+                
+                <label for="gender">Gender</label><br />
+                <select name="gender">
+                    <option value="0">Male</option>
+                    <option value="1">Female</option>
+                    <option value="2">Other</option>
+                </select><br><br>
+
+                <p class="qBlog">How much did you like my blog?</p>
+                
+                <input type="radio" id="good" name="mark" value="GOOD">
+                <label for="good">Very good</label><br>
+                <input type="radio" id="notBad" name="mark" value="NOTBAD">
+                <label for="notBad">Not bad</label><br>
+                <input type="radio" id="bad" name="mark" value="BAD">
+                <label for="bad">Bad</label><br><br>
+
+                <label for="feedback">Feedback</label><br />
+                <textarea name="feedback" id="" cols="30" rows="10"></textarea><br />
+
+                <input type="checkbox" id="sendEmail" name="emailBox" value="SEND">
+                <label for="sendEmail">Email me back with answer</label><br>
+
+                <button>Send</button>
+            </form>
+        </section>
+        <footer>
+            &copy; K105 KhaAI
+        </footer>
+    </body>
+</html>

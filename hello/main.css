@@ -1,0 +1,59 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: Verdana;
+}
+header {
+    text-align: center;
+    background-color: black;
+    padding: 20px;
+}
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+h1 {
+    color: white;
+}
+nav {
+    background-color: gray;
+    height: 30px;
+    text-align: center;
+}
+a {
+    line-height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    text-decoration: underline;
+}
+h2 {
+    text-align: center;
+}
+.article {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer {
+    text-align: center;
+    height: 20px;
+}
+form {
+    text-align: center;
+}
+section {
+    margin: 30px;
+}
+button {
+    margin-top: 10px;
+    font-size: 20px;
+}
+.qBlog {
+    text-align: center;
+}
